@@ -21,6 +21,9 @@
     color: white;    
     font-family: serif;      
 }
+.logo-img{
+    float: left;
+}
 .top-menu-menu{    
     float: left; 
     text-align: center;    
@@ -142,13 +145,14 @@ nav ul li ul li a {
     }
     .logo-img{
         font-size: 26pt;
-        margin: 1% 0 0 12%;
-        width: 5%;
+        margin: 1% 0 0% 4%;
+        width: 20%;
         text-shadow: 1px 2px lightyellow;
         /*background: red;*/
+        
     }
     .logo-img img{
-        max-width: 65%;
+        max-width: 30%;
     }
     nav ul li a {
         width:20%;
@@ -181,13 +185,14 @@ nav ul li ul li a {
     }
     .logo-img{
         font-size: 26pt;
-        margin: 1% 0 0 12%;
-        width: 6%;
+        margin: 1% 0 0% 4%;
+        width: 25%;
         text-shadow: 1px 2px lightyellow;
         /*background: blue;*/
+        
     }
     .logo-img img{
-        max-width: 65%;
+        max-width: 35%;
     }
      nav ul li a {
         width:20%;
@@ -221,13 +226,13 @@ nav ul li ul li a {
     }
     .logo-img{
         font-size: 22pt;
-        margin: 1% 0 0 12%;
-        width: 7%;
+        margin: 1% 0 0% 4%;
+        width: 25%;
         text-shadow: 1px 2px lightyellow;
-        /*background: purple;*/
+        
     }
     .logo-img img{
-        max-width: 65%;
+        max-width: 35%;
     }
     nav ul li a {
         width:20%;
@@ -265,7 +270,12 @@ nav ul li ul li a {
         display: block;
     }
     .logo-img{
-        display: none;
+        font-size: 22pt;
+        margin: 1% 0 0% 4%;
+        width: 25%;
+        text-shadow: 1px 2px lightyellow;
+        /*background: purple;*/
+        
     }
     .logo-img img{
         max-width: 30%;
@@ -305,10 +315,15 @@ nav ul li ul li a {
         display: block;
     }
     .logo-img{
-        display: none;
+        font-size: 22pt;
+        margin: 0% 0 0 2%;
+        width: 25%;
+        text-shadow: 1px 2px lightyellow;
+        /*background: purple;*/
+        
     }
     .logo-img img{
-        max-width: 100%;
+        max-width: 40%;
     }
     nav ul li a {
         width:5%;
