@@ -4,7 +4,7 @@
     <div ng-switch on="showContent">
         <div ng-switch-when="true" >
             <div class="page-wrapper">
-                <div class="article-wrapper-inline">
+                <div class="article-wrapper">
                     <div class="article-wrapper2"  ng-repeat="article in content.articleLocations.FrontPage">              
                         <div class="article-title"  ng-switch on="article.showTitle">
                             <span ng-switch-when="true">{{article.title}}</span>
@@ -16,28 +16,11 @@
                             <span ng-switch-when="false"><a class="" href="#!article/{{article._id}}">Read More...</a></span>
                         </div>
 
-                        <div ng-switch on="article.fullPage">
-                            <div ng-switch-when="true">
-                                <div ng-switch on="article.allowComments">
-                                    <div ng-switch-when="true" class="comment-link"><a class="" href="#!article/{{article._id}}">Comments...</a></div>
-                                </div>
-                            </div>
-                        </div>
-
+                        
 
                     </div>
                 </div>
-                <div class="archive-wrapper-inline">
-                    <div class="archive-wrapper">
-                        <div class="archive-label">
-                            Archives
-                        </div>
-                        <div ng-repeat="archive in content.dates">
-                            <a class="" href="#!archive/{{archive.month}}/{{archive.year}}">{{archive.dateLabel}}</a>
-                        </div>
-                    </div>
-
-                </div>
+                
             </div>
         </div>
     </div>
